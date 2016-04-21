@@ -8,9 +8,9 @@ module.exports = exports = function (brow, options) {
   brow.pipeline.get('sort').push(
     through.obj(function (row, enc, next) {
       if (options.accumulator[row.file]) {
-        console.log(row.file + ' found in accumulator')
+        console.log('FOUND')
       } else {
-        console.error(row.file + ' NOT FOUND')
+        console.error('NOT FOUND:', row.file)
       }
       // noop
       this.push(row)

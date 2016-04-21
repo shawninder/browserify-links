@@ -1,5 +1,5 @@
 {
-  "name": "postcssify-nested-links",
+  "name": "browserify-links",
   "version": "1.0.0",
   "description": "Minimal bug reproduction",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shawninder/postcssify-nested-links.git"
+    "url": "git+https://github.com/shawninder/browserify-links.git"
   },
   "author": "Shawn Inder <shawninder@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shawninder/postcssify-nested-links/issues"
+    "url": "https://github.com/shawninder/browserify-links/issues"
   },
-  "homepage": "https://github.com/shawninder/postcssify-nested-links#readme",
+  "homepage": "https://github.com/shawninder/browserify-links#readme",
   "keywords": [],
   "contributors": [
     "Shawn Inder <shawninder@gmail.com>"
